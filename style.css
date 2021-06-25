@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling the general body */
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #f0efeb;
+}
+
+/* Navbar styles */
+
+nav img {
+  width: 100px;
+  /* cursor: pointer; */
+  margin: 20px 50px;
+}
+
+/* All about the index */
+.main-image {
+  margin-left: 8%;
+  margin-top: 8%;
+  display: inline-block;
+}
+.main-image img {
+  height: 60%;
+  position: absolute;
+  right: 50%;
+  bottom: 25%;
+  /* border: 2px solid black; */
+}
+.my-info {
+  color: #264653;
+  width: 45%;
+  height: 50%;
+  position: absolute;
+  bottom: 29%;
+  right: 100px;
+  /* border: 2px solid black; */
+  text-align: center;
+  line-height: 40px;
+  padding-top: 10px;
+}
+
+h2 {
+  font-size: 30px;
+  padding-top: 70px;
+}
+.my-info p {
+  font-size: 20px;
+}
+
+/* All about the sidebar */
+#main-connect h1 {
+  line-height: 22px;
+  margin-bottom: 15px;
+  padding-bottom: 20px;
+}
+#main-connect {
+  border: 2px solid black;
+  margin-left: 68%;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  padding-left: 50px;
+  padding-top: 20px;
+  color: #264653;
+  width: 20%;
+  height: 62%;
+}
+
+#main-connect a {
+  font-size: 30px;
+  color: #264653;
+  margin-left: 40px;
+}
+
+/* Contact me part of the body */
+
+#contact-form {
+  margin-top: 150px;
+}
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #f7c08a;
+  color: #333;
+}
+
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
+}
+/* improved css style after the main design (height was 200) */
+#contact-form textarea {
+  height: 150px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
+
+/* All about the footer */
+footer {
+  background-color: #fff1e6;
+  color: #264653;
+  padding: 30px 0;
+  clear: both;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;®
+}
